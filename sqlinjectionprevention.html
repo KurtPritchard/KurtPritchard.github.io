@@ -1,0 +1,127 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SQL Injection Prevention</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Cyber Security & Securing Threats.</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="featured.html">Featured</a></li>
+                        <li><a href="help.html">Help</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <header>
+                        <h1>SQL Injection Prevention</h1>
+                        <p>In order to prevent SQL Injections, the user input needs to be sanatized in order to make sure that
+                          users are not able to input malicious code.</p>
+                    </header>
+                    <section>
+                        <h2>How can I Prevent SQL Injection?</h2>
+                          <!-- Insert video here -->
+                            <ul>
+                              <li>Do <b>not</b> allow Dynamic SQL. By abstaining the use of Dynamic Sql and only using prepared statements it makes sure that only preallocated and authorized commands
+                                can be sent through the system. This technique should be used with formats of security in order to maximize security.</li>
+                                <li>Sanitize user input, for example Phone Number fields should only allow numbers found in phone numbers, and e-mail addresses should only
+                                  allow the characters available in an e-mail address.</li>
+                                <li>Use the LIMIT Sql control within queries to bypass mass disclosure of records in the event of an SQL Injection. </li>
+                                <li>Web Application Firewall. These can be used in order to help filter malicious code that can be sent to the application. A good example of a WAF is
+                                  <a href="http://www.modsecurity.org/">ModSecurity</a>.</li>
+                                <li>Encryption or Hashing. Protecting all passwords or data that needs to be kept secret in order to make sure that they are not displayed as clear text
+                                  is an important factor of security. Recently <a href="https://www.theverge.com/2019/3/21/18275837/facebook-plain-text-password-storage-hundreds-millions-users">
+                                  Facebook</a> was found to be storing hundreds of millions of passwords in clear text.</li>
+                                <li>Monitoring. Simply monitoring the SQL statements that are coming from database-connected applications will help to make sure that the application is kept safe.
+                                  Any and all security flaws should be acted upon immediately in order to stop the wide spread damage that could occur from these different kinds of attacks.</li>
+                            </section>
+                              <section>
+                                <p>One important thing to remember is that security breaches over time will become more and more sophisticated, and it's important to keep yourself and your business
+                                up to date with security.</p>
+                          </section>
+                          <footer>
+                          <h3>Remember</h3>
+                        <p>Understanding how these attacks are composed allow for you to gain a better insight as to how you can protect yourself, and others from these types of attacks.</p>
+                    </footer>
+                </article>
+
+                <aside>
+                    <h3>Did yoiu know?</h3>
+                      <p>The OWASP foundation rated SQL Injection as their number one exploit in their 2013 report, and their latest <a href="https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf">
+                        2017 report</a>.</p>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <!-- FOOTER START -->
+        <div class="footer-container">
+<div class="footer">
+    <div class="contain">
+    <div class="col">
+      <h1>Author</h1>
+      <ul>
+        <li><a href="authorabout.html">About</a></li>
+        <li><a href="authormission.html">Mission</a></li>
+        <li><a href="https://www.linkedin.com/in/kurtjp/">Get in touch</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Support</h1>
+      <ul>
+        <li><a href="https://www.ncsc.gov.uk/">National Cyber Security</a><li>
+        <li><a href="https://www.actionfraud.police.uk/">ActionFraud</a></li>
+        <li><a href="https://www.victimsupport.org.uk/crime-info/reporting-crime">VictimSupport</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Resources</h1>
+      <ul>
+        <li><a href="securityguides.html">Security Guides</a></li>
+        <li><a href="softwareguides.html">Software Guide</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+    </div>
+    <div class="col social">
+      <br>
+      <ul>
+        <li><a href="http://tees.ac.uk/"><img src="images/teessideuniversity.png" alt="The Teesside University Logo, orange and yellow gradient." width="92" style="width: 92px;"></a></li>
+      </ul>
+    </div>
+  <div class="clearfix"></div>
+  </div>
+  </div>
+</div>
+  <!-- END OF FOOTER -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

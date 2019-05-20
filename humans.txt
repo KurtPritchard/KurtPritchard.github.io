@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Kurt Pritchard> -- <Developer> -- <@TheWhistler23>
+
+# THANKS
+
+  <Liam Llewellyn>
+	<Abi Iveson>
+	<Sophie Price>
+	<Graeme Cooper>
+	<Jo Smeets>
+	<Erika Downs>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
